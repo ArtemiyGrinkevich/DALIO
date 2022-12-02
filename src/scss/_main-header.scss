@@ -1,0 +1,71 @@
+.main-header {
+    padding-top: 1.5rem;
+    margin: 0 auto;
+    max-width: 57rem;
+    min-height: 3rem;
+
+    // .main-header__container
+
+    &__container {
+       
+        
+        
+        
+    }
+
+    // .main-header__navigation
+
+    &__navigation {
+        
+        min-height: 3rem;
+        
+        display: flex;
+        justify-content:space-between;
+        
+        align-items: center;
+
+    }
+
+    // .main-header__logo-link
+
+    &__logo-link {
+       
+    }
+
+    // .main-header__logo-image
+
+    &__logo-image {
+        height: 63px;
+        width: 118px;
+        // margin-top: 2rem;
+    }
+    
+
+    // .main-header__navigation-list
+
+    &__navigation-list {
+        
+       
+    }
+
+    // .main-header__navigation-link
+
+    &__navigation-link {
+        color: #fff;
+       margin: 0 2rem;
+       text-decoration: none;
+    }
+
+    // .main-header__burger-link
+
+    &__burger-link {
+    }
+
+    // .main-header__burger-image
+
+    &__burger-image {
+        // margin-top: 2rem;
+    }
+}
+.container {
+}

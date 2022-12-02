@@ -1,0 +1,14 @@
+html{
+    font-size: 20px;
+    margin: 0 auto;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    margin: 0 auto;
+    background:url('/src/assets/images/Background-top.svg')0 0 / cover no-repeat,$bluecolor ;
+    min-height:1050px;
+    max-width: 1440px;
+}

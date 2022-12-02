@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700;900&family=Open+Sans&family=Raleway&display=swap");
+html {
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 0 auto;
+  background: url("/src/assets/images/Background-top.svg") 0 0/cover no-repeat, #172048;
+  min-height: 1050px;
+  max-width: 1440px;
+}
+
+.hero {
+  margin: 1rem;
+  max-width: 1400px;
+  min-height: 868px;
+  background: url(/src/assets/images/hero-line.svg) 90% 20% no-repeat;
+}
+
+.test {
+  min-height: 700px;
+  margin: 0;
+}
+
+.scroll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin: 1.3rem 8.8rem 0 0;
+}
+
+.hero-content__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.hero-content__filling {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  min-height: 700px;
+  z-index: 6;
+}
+.hero-content__world-class {
+  height: 182px;
+  margin-left: 15%;
+}
+.hero-content__title-text {
+  max-height: 122px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.hero-content__title-text-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.hero-content__digital {
+  padding-right: 6rem;
+  height: 72px;
+  width: 472px;
+  font-family: "Inter", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-size: 150px;
+  font-weight: 700;
+  line-height: 182px;
+  letter-spacing: 0em;
+  color: rgb(255, 255, 255);
+}
+.hero-content__agency {
+  min-height: 182px;
+  max-width: 563px;
+  font-family: "Inter", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-size: 150px;
+  font-weight: 700;
+  line-height: 182px;
+  color: rgb(255, 255, 255);
+}
+.hero-content__deskription {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.hero-content__deskription-side-image {
+  margin-left: 2rem;
+  height: 368px;
+  width: 292px;
+}
+.hero-content__deskription-text-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.hero-content__deskription-hero-deskription {
+  max-width: 25rem;
+  margin-top: 2rem;
+  color: rgb(224, 229, 243);
+  font-family: "Inter", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+}
+.hero-content__deskription-hero-button {
+  width: 10rem;
+  min-height: 60px;
+  margin-top: 2.2rem;
+  background: rgb(255, 201, 62);
+  height: 60px;
+  border-radius: 30px;
+  padding: 16px 24px 16px 24px;
+}
+.hero-content__deskription-scroll-down {
+  height: 102px;
+  width: 22px;
+  text-align: end;
+}
+.hero-content__deskription-hero-image {
+  min-height: 475px;
+  max-width: 23rem;
+  border-radius: 50px;
+}
+
+.main-header {
+  padding-top: 1.5rem;
+  margin: 0 auto;
+  max-width: 57rem;
+  min-height: 3rem;
+}
+.main-header__navigation {
+  min-height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main-header__logo-image {
+  height: 63px;
+  width: 118px;
+}
+.main-header__navigation-link {
+  color: #fff;
+  margin: 0 2rem;
+  text-decoration: none;
+}
