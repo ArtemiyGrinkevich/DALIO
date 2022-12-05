@@ -1,0 +1,67 @@
+.solution {
+    background:url(/src/assets/icons/solution-arnament.svg)7% 94% no-repeat,url(/src/assets/icons/solution-circle.svg)52% 8% no-repeat,url(/src/assets/icons/yelowbg.svg) 0 0 / auto 100% no-repeat ,$greycolor;
+	// background-color: $greycolor;
+}
+.our-solution {
+	display: flex;
+	flex-wrap: wrap-reverse;
+	justify-content: center;
+	padding: 5rem 0 4.2rem 0;
+}
+.solution-image {
+}
+.solution-text {
+	padding: 2.55rem 5.5rem 0 3.125rem;
+	max-width: 535px;
+
+		// .solution-text__solution-title
+
+		&__solution-title {
+			@include text700;
+			// padding-bottom: 2.5rem;
+			font-size: 48px;
+		
+			line-height: 58px;
+			
+			text-align: left;
+			
+			
+			// text-align: center;
+		}
+
+		// .solution-text__article
+
+		&__article {
+
+		}
+}
+.article {
+
+		// .article__title
+
+		&__title {
+			padding-top: 2rem;
+			@include text700;
+			font-size: 24px;
+			line-height: 30px;
+			text-align: left;
+		}
+
+		// .article__title-birdie
+
+		&__title-birdie {
+		}
+
+		// .article__subtitle
+
+		&__subtitle {
+		}
+
+		// .article__deskription
+
+		&__deskription {
+			@include text400;
+			font-size: 16px;
+			text-align: left;
+		}
+}

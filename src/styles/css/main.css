@@ -221,7 +221,7 @@ html {
   color: rgb(224, 229, 243);
 }
 .about-us-text__button {
-  max-width: 150px;
+  width: 10rem;
   min-height: 56px;
   background: url(/src/assets/icons/hero-arrow.svg) 82% no-repeat, rgb(255, 201, 62);
   border-radius: 30px;
@@ -257,4 +257,146 @@ html {
 }
 .about-us-images__right-image-top {
   margin-bottom: 1.3rem;
+}
+
+.facts {
+  padding: 4rem 0 6rem 0;
+}
+
+.fun-facts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.fun-fact__job-completed {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgb(224, 229, 243);
+}
+.fun-fact__job-complete-numbers {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.fun-fact__industry-experience {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgb(224, 229, 243);
+}
+.fun-fact__industry-experience-numbers {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.fun-fact__world-wide-clients {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgb(224, 229, 243);
+}
+.fun-fact__world-wide-clients-numbers {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.fun-fact__won-awards {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgb(224, 229, 243);
+}
+.fun-fact__won-awards-numbers {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.solution {
+  background: url(/src/assets/icons/solution-arnament.svg) 7% 94% no-repeat, url(/src/assets/icons/solution-circle.svg) 52% 8% no-repeat, url(/src/assets/icons/yelowbg.svg) 0 0/auto 100% no-repeat, #5A6378;
+}
+
+.our-solution {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5rem 0 4.2rem 0;
+}
+
+.solution-text {
+  padding: 2.55rem 5.5rem 0 3.125rem;
+  max-width: 535px;
+}
+.solution-text__solution-title {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  line-height: 58px;
+  text-align: left;
+}
+.article__title {
+  padding-top: 2rem;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  line-height: 30px;
+  text-align: left;
+}
+.article__deskription {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgb(224, 229, 243);
+  font-size: 16px;
+  text-align: left;
 }

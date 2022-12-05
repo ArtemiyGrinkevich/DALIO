@@ -9,3 +9,22 @@
             padding-right: 7%;
             cursor: pointer;
 }
+@mixin text700 {
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0em;
+text-align: center;
+color:rgba(255, 255, 255, 1);
+}
+@mixin text400 {
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color:rgba(224, 229, 243, 1);
+    
+}

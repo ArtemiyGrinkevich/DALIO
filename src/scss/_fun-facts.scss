@@ -1,0 +1,34 @@
+.facts {
+    padding: 4rem 0 6rem 0;
+}
+.fun-facts {
+    display: flex;
+    justify-content: space-around;
+}
+.fun-fact {
+
+		&__job-completed { 
+            @include text400
+		}
+		&__job-complete-numbers {
+            @include text700
+		}
+		&__industry-experience {
+            @include text400
+		}
+		&__industry-experience-numbers {
+            @include text700
+		}
+		&__world-wide-clients {
+            @include text400
+		}
+		&__world-wide-clients-numbers {
+            @include text700
+		}
+		&__won-awards {
+            @include text400
+		}
+		&__won-awards-numbers {
+            @include text700
+		}
+}
