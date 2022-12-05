@@ -1,0 +1,111 @@
+.about {
+    background: url(/src/assets/icons/about-us-ornament-cirkle.svg)95% 100% no-repeat,url(/src/assets/icons/about-us-ornament-liner.svg)80% 10% no-repeat;
+    
+}
+.container {
+}
+.about-us {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+    flex-wrap: wrap;
+    // flex-direction: column;
+}
+.about-us-text {
+   max-width: 539px;
+
+		// .about-us-text__title
+        
+		&__title {
+		}
+        &__title-h{
+            font-family: Inter;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 58px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: rgba(255, 255, 255, 1);
+             
+        }
+		// .about-us-text__deskription
+
+		&__deskription {
+		}
+
+		// .about-us-text__deskription-p-first
+
+		&__deskription-p-first {
+            padding-top: 2rem;
+            min-height: 297px;//styleName: Body text;
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: rgba(224, 229, 243, 1);
+
+                        
+            
+		}
+
+		// .about-us-text__deskription-p-second
+
+		&__deskription-p-second {
+		}
+
+		// .about-us-text__button
+
+		&__button {
+            max-width: 150px;
+            min-height: 56px;
+            @include button-hero
+		}
+}
+.about-us-images {
+    
+    display: flex;
+       margin-left: 2.2rem;     
+    max-width: 45%;
+
+		// .about-us-images__left
+
+		&__left {
+            max-width: 265px;
+            margin-right: 1.3rem;
+           
+		}
+
+		// .about-us-images__left-image-top
+
+		&__left-image-top {
+            margin-bottom: 1.3rem;
+		}
+
+		// .about-us-images__left-image-bottom
+
+		&__left-image-bottom {
+          margin-left: 2.2rem;
+            
+		}
+        
+
+		// .about-us-images__right
+
+		&__right {
+            max-width: 265px;
+           margin-top: 3.5rem;
+		}
+
+		// .about-us-images__right-image-top
+
+		&__right-image-top {
+            margin-bottom: 1.3rem;
+		}
+
+		// .about-us-images__right-image-bottom
+
+		&__right-image-bottom {
+		}
+}

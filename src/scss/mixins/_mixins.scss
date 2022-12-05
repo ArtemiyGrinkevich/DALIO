@@ -1,0 +1,11 @@
+@mixin button-hero {
+            background:url(/src/assets/icons/hero-arrow.svg)82% no-repeat, rgba(255, 201, 62, 1);
+            border-radius: 30px;
+            font-family: 'Inter', sans-serif;
+            border: none;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 22px;
+            padding-right: 7%;
+            cursor: pointer;
+}
