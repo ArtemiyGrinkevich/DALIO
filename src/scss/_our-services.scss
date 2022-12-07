@@ -1,0 +1,226 @@
+.our-services {
+    
+}
+.container {
+}
+.services {
+}
+.title-services {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6rem 0 2rem 0;
+
+		// .title-services__title
+
+		&__title {
+            @include text700;
+            max-width:19.1rem;
+            text-align: left
+		}
+
+		// .title-services__button
+
+		&__button {
+            @include button-hero-light ;
+            // background: none;
+            
+            width: 8rem;
+            height: 2rem;
+            
+		}
+}
+.content-services {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 1074px;
+		// .content-services__left-half-box
+
+		&__left-half-box {
+            max-width: 27.75rem;
+            min-height: 1100px;
+            margin: 0 1.5rem 2.7rem 0;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+		}
+
+		// .content-services__right-half-box
+
+		&__right-half-box {
+            max-width: 27.75rem;
+            min-height: 1100px;
+            margin:2.7rem 0 0 0;
+            border-top-right-radius: 30px ;
+            border-bottom-right-radius: 30px;
+		}
+}
+.box {
+   
+    
+
+		// .box__content-writing
+
+		&__content-writing {
+            background:$greycolor;
+            min-height: 522px;
+            padding: 4.73rem 2.05rem 0 1.7rem ;
+            margin-bottom: 1.5rem;
+            border-top-left-radius: 30px ;
+            
+            // padding: 2rem 2rem 2rem 2rem;
+		}
+
+		// .box__branding
+
+		&__branding {
+            background:$greycolor;
+            min-height: 522px;
+            padding: 4.73rem 2.05rem 0 1.7rem ;
+            border-bottom-left-radius: 30px;
+            
+		}
+
+		// .box__ux-research
+
+		&__ux-research {
+            background:$greycolor;
+            min-height: 522px;
+            padding: 4.73rem 2.05rem 0 1.7rem ;
+            margin-bottom: 1.5rem;
+            border-top-right-radius: 30px ;
+		}
+
+		// .box__web-design
+
+		&__web-design {
+            background:$greycolor;
+            min-height: 522px;
+            padding: 4.73rem 2.05rem 0 1.7rem ;
+            border-bottom-right-radius: 30px;
+		}
+}
+.content-writing {
+    
+
+		// .content-writing__vector
+
+		&__vector {
+
+		}
+
+		// .content-writing__title
+
+		&__title {
+            padding-top: 1.45rem;
+            @include text600
+		}
+
+		// .content-writing__deskription
+
+		&__deskription {
+            @include text400;
+            text-align: left;
+            padding: 1rem 0 1rem 0;
+		}
+
+		// .content-writing__button
+
+		&__button {
+            @include button-hero-light ;
+            max-width: 7.95rem;
+            min-height: 2.6rem;
+		}
+}
+.branding {
+
+		// .branding__vector
+
+		&__vector {
+		}
+
+		// .branding__title
+
+		&__title {
+            @include text600;
+            padding-top: 1.45rem;
+            padding-top: 1rem;
+		}
+
+		// .branding__deskription
+
+		&__deskription {
+            @include text400;
+            text-align: left;
+            padding: 1rem 0 1rem 0;
+		}
+
+		// .branding__button
+
+		&__button {
+            @include button-hero-light ;
+            max-width: 7.95rem;
+            min-height: 2.6rem;
+		}
+}
+.ux-research {
+
+		// .ux-research__vector
+
+		&__vector {
+		}
+
+		// .ux-research__title
+
+		&__title {
+            @include text600;
+            padding-top: 1.45rem;
+		}
+
+		// .ux-research__deskription
+
+		&__deskription {
+            @include text400;
+            text-align: left;
+            padding: 1rem 0 1rem 0;
+            
+		}
+
+		// .ux-research__button
+
+		&__button {
+            @include button-hero;
+            max-width: 7.95rem;
+            min-height: 2.6rem;
+		}
+}
+.web-design {
+
+		// .web-design__vector
+
+		&__vector {
+		}
+
+		// .web-design__title
+
+		&__title {
+            @include text600;
+            padding-top: 1.45rem;
+		}
+
+		// .web-design__deskription
+
+		&__deskription {
+            padding: 1rem 0 1rem 0;
+            @include text400;
+            text-align: left;
+		}
+
+		// .web-design__button
+
+		&__button {
+            @include button-hero-light ;
+            max-width: 7.95rem;
+            min-height: 2.6rem;
+		}
+}

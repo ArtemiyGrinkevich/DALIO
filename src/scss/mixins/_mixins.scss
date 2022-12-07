@@ -1,29 +1,53 @@
 @mixin button-hero {
-            background:url(/src/assets/icons/hero-arrow.svg)82% no-repeat, rgba(255, 201, 62, 1);
+            background:url(/src/assets/icons/hero-arrow.svg)90% no-repeat, rgba(255, 201, 62, 1);
             border-radius: 30px;
             font-family: 'Inter', sans-serif;
             border: none;
             font-size: 18px;
             font-weight: 500;
             line-height: 22px;
-            padding-right: 7%;
+            padding:0 2rem 0 1rem;
             cursor: pointer;
+            // padding: 16px, 24px, 16px, 24px;
+}
+@mixin button-hero-light {
+    background:url(/src/assets/icons/arrowlight.svg)90% no-repeat,;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 30px;
+    font-family: 'Inter', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    padding:0 2rem 0 1rem;
+    
+    cursor: pointer;
+    // padding: 16px, 44px, 16px, 24px;
 }
 @mixin text700 {
 font-family: Inter;
 font-size: 48px;
 font-weight: 700;
 line-height: 58px;
-letter-spacing: 0em;
+
 text-align: center;
 color:rgba(255, 255, 255, 1);
+}
+@mixin text600 {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+     
+color:rgba(255, 255, 255, 1);
+
 }
 @mixin text400 {
 font-family: Inter;
 font-size: 20px;
 font-weight: 400;
 line-height: 24px;
-letter-spacing: 0em;
+
 text-align: center;
 color:rgba(224, 229, 243, 1);
     
