@@ -1,0 +1,134 @@
+.our-projects {
+    padding-top: 6rem;
+}
+.container {
+}
+.projects {
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+}
+.projects-header {
+    
+
+		// .projects-header__title
+
+		&__title {
+            @include text700
+		}
+
+		// .projects-header__navigation
+
+		&__navigation {
+            padding-top: 1.2rem;
+            min-height: 3rem;
+        
+        display: flex;
+        justify-content:center;
+        gap: 2rem;
+
+        
+        align-items: center;
+		}
+}
+.ui-ux{
+    background: none;
+    color:rgba(255, 201, 62, 1);
+}
+.navigation {
+    
+
+		// .navigation__project-link
+
+		&__project-link {
+            @include text400;
+            text-decoration:none;
+		}
+}
+.projects-content {
+    padding: 2.4rem 0 2.4rem 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.project-content-left {
+    margin-right: 1.5rem;
+}
+.projects-content-left {
+
+		// .projects-content-left__image
+
+		&__image {
+            border-radius: 50px;
+            width: 100%;
+		}
+
+		// .projects-content-left__title
+
+		&__title {
+            padding: 1.6rem 0 1.6rem 0;
+            @include text700;
+            text-align:left;
+            max-width: 18.95rem;
+            min-height: 2.9rem;
+            font-size: 24px;
+            line-height: 36px;
+		}
+
+		// .projects-content-left__subtitle
+
+		&__subtitle {
+            @include text400;
+            text-align:left;
+            max-width: 27.65rem;
+            min-height: 4.35rem;
+		}
+		}
+
+.project-content-right {
+}
+.projects-content-right {
+
+		// .projects-content-right__image
+
+		&__image {
+            border-radius: 50px;
+            width: 100%;
+		}
+
+		// .projects-content-right__title
+
+		&__title {
+            padding: 1.6rem 0 1.6rem 0;
+            @include text700;
+            text-align:left;
+            max-width: 18.95rem;
+            min-height: 2.9rem;
+            font-family: Inter;
+            font-size: 24px;
+            line-height: 36px;
+		}
+
+		// .projects-content-right__subtitle
+
+		&__subtitle {
+            @include text400;
+            text-align:left;
+            max-width:27.65rem;
+            min-height: 4.35rem;
+		}
+		}
+
+.project-box-button{
+  text-align: center
+}
+.projects-button {
+    @include text600;
+    color: black;
+    @include button-hero;
+    text-align: center;
+    max-width: 10rem;
+    min-height: 2.5rem;
+    font-size: 16px;
+}
