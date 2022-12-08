@@ -52,3 +52,11 @@ text-align: center;
 color:rgba(224, 229, 243, 1);
     
 }
+@mixin text500 {
+    font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 30px;
+text-align: left;
+
+}

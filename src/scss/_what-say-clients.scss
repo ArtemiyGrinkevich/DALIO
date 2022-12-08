@@ -1,0 +1,155 @@
+.what-say-happy-clients {
+
+    // .what-say-happy-clients__title
+
+    &__title {
+        @include text700;
+        text-align:left;
+        padding: 6rem 0 2.4rem 0;
+    }
+
+    // .what-say-happy-clients__content
+
+    &__content {
+        display: flex;
+    }
+}
+.container-big {
+}
+.container {margin: 0 auto;
+}
+.full-card {
+    padding: 2.7rem 3.25rem 2rem 3.25rem;
+    margin-left:10%;
+    margin-right: 1.6rem;
+    display: flex;
+    align-items: center;
+    background: $greycolor;
+    border-radius: 50px;
+    position: relative;
+    max-width: 37.5rem;
+    
+
+    // .full-card__left-side
+
+    &__left-side {
+        cursor: pointer;
+        position: absolute;
+        right: 96%;
+        
+    }
+
+    // .full-card__arrow-image
+
+    &__arrow-image {
+        
+    }
+
+    // .full-card__right-side
+
+    &__right-side {
+    }
+
+    // .full-card__quotes-image
+
+    &__quotes-image {
+    }
+
+    // .full-card__deskription
+
+    &__deskription {
+        @include text400;
+        text-align: left;
+        padding-top: 1.6rem;
+    }
+
+    // .full-card__business-card
+
+    &__business-card {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.busines-card-simons-card{
+    display: flex;
+}
+.busines-card-wilson-card__image{
+
+}
+.business-card {
+    &__simons-card {
+      
+       
+        
+    }
+    // .business-card__simmons-image
+
+    &__simmons-image {
+        padding-top: 1.85rem;
+    }
+
+    // .business-card__data
+
+    &__data {
+        padding: 2.1rem 0 0 0.8rem;
+    }
+
+    // .business-card__rating
+
+    &__rating {
+        padding-top: 1.6rem;
+    }
+
+    // .business-card__wilson-image
+
+    &__wilson-image {
+        padding-top: 1.85rem;
+    }
+}
+.data {
+
+    // .data__name
+
+    &__name {
+        @include text500;
+        color:rgba(255, 255, 255, 1);
+    }
+
+    // .data__job-title
+
+    &__job-title {
+        @include text400;
+        color:rgba(255, 201, 62, 1) ;
+    }
+}
+.half-card {
+    background: $greycolor;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    max-width: 37.5rem;
+    // max-height: 21.95rem;
+    overflow: hidden;
+    padding: 2.7rem 3.25rem 2rem 3.25rem;
+
+    // .half-card__quotes-image
+
+    &__quotes-image {
+    }
+
+    // .half-card__deskription
+
+    &__deskription {
+        padding-top: 1.6rem;
+        // height: 150px;
+width: 620px;
+@include text400;
+text-align: left;
+    }
+
+    // .half-card__business-card
+
+    &__business-card {
+        display: flex;
+        
+    }
+}

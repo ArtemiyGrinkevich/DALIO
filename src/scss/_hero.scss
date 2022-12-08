@@ -14,6 +14,7 @@
 		&__title {
             display: flex;
             flex-direction: column;
+            
 		}
 		&__deskription-side{
             display: flex;
@@ -96,5 +97,7 @@
             min-height: 475px;
             max-width: 23rem;
             border-radius: 50px;
+            max-width: 100%;
+	min-height: 327px;
 		}
 }

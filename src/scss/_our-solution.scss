@@ -1,6 +1,6 @@
 .solution {
 	
-    background:url(/src/assets/icons/solution-arnament.svg)7% 94% no-repeat,url(/src/assets/icons/solution-circle.svg)52% 8% no-repeat,url(/src/assets/icons/yelowbg.svg) 0 0 / auto 100% no-repeat ,$greycolor;
+    background:url(/src/assets/icons/solution-arnament.svg)7% 94% no-repeat,url(/src/assets/icons/solution-circle.svg)52% 8% no-repeat,url(/src/assets/icons/yelowbg.svg) 0 0 / auto 120% no-repeat ,$greycolor;
 	// background-color: $greycolor;
 	
 }
@@ -12,6 +12,8 @@
 	padding: 5rem 0 4.2rem 0;
 }
 .solution-image {
+	max-width: 100%;
+	min-height: 327px;
 }
 .solution-text {
 	padding: 2.55rem 5.5rem 0 3.125rem;
@@ -23,12 +25,8 @@
 			@include text700;
 			// padding-bottom: 2.5rem;
 			font-size: 48px;
-		
 			line-height: 58px;
-			
 			text-align: left;
-			
-			
 			// text-align: center;
 		}
 
