@@ -1,16 +1,16 @@
 .about {
-    background: url(/src/assets/icons/about-us-ornament-cirkle.svg)82% 100% no-repeat,url(/src/assets/icons/about-us-ornament-liner.svg)72% 10% no-repeat;  
+//     background: url(/src/assets/icons/about-us-ornament-cirkle.svg)82% 100% no-repeat,url(/src/assets/icons/about-us-ornament-liner.svg)72% 10% no-repeat;  
 }
 .about-us {
     display: flex;
-    justify-content: center;
     padding: 4rem 0;
     flex-wrap: wrap;
 }
 .about-us-text {
    max-width: 539px;
+   padding-right: 2.2rem;
 
-        &__title-h{
+        &__title-about{
             font-family: Inter;
             font-size: 48px;
             font-weight: 700;
@@ -19,7 +19,7 @@
             text-align: left;
             color: rgba(255, 255, 255, 1);
         }
-		&__deskription-p-first {
+		&__deskription-about {
             padding-top: 2rem;
             min-height: 297px;
             font-family: Inter;
@@ -37,9 +37,10 @@
 		}
 }
 .about-us-images {
+      
         display: flex;
-        margin-left: 2.2rem;     
-        max-width: 45%;
+      //   margin-left: 2.2rem;     
+        max-width: 100%;
         
 
 		&__left {
@@ -59,4 +60,28 @@
 		&__right-image-top {
             margin-bottom: 1.3rem;
 		}
+    }
+
+    .position-about{
+      position: relative;
+      z-index: 1;
+    }
+    .posion-ornament-circle{
+      &__circle{
+            position: absolute;
+            left: 80%;
+            top: 83%;
+            z-index: -1;
+      }
+
+    }
+    .posion-ornament-liner{
+      &__liner{
+            position: absolute;
+            left: 70%;
+            top: 1%;
+            z-index: -1;
+
+      }
+
     }

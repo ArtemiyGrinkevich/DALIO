@@ -1,23 +1,16 @@
 html{
     font-size: 20px;
-    // margin: 0 auto;
 }
 *{
     margin: 0;
     box-sizing: border-box;
 }
-.wrapper{
-    // margin: 0 auto;
-    // background-color: $bluecolor;
-    // max-width: 1440px;
-// display: flex;
-// flex-direction: column;
-}
+
 .container{
     max-width: 1140px;
     margin: 0 auto;
     padding: 0 15px;
-    // background-color: $bluecolor;
+    
 }
 .container-big{
     max-width: 1440px;
@@ -29,9 +22,10 @@ html{
     flex-direction: column;
     height: 100vh;
     margin: 0 auto;
-    background-color: $bluecolor;
 }
 .main-content{
     flex: 1 0 auto;
-    background-color: $bluecolor;
+    
+    background: $bluecolor;
+    
 }
