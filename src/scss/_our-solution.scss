@@ -1,6 +1,6 @@
 .solution {
 	
-    background:url(/src/assets/icons/solution-arnament.svg)7% 94% no-repeat,url(/src/assets/icons/solution-circle.svg)52% 8% no-repeat,url(/src/assets/icons/yelowbg.svg) 0 0 / auto 120% no-repeat ,$greycolor;
+    background:url(/src/assets/icons/yelowbg.svg) 0 0 / auto 120% no-repeat ,$greycolor;
 	// background-color: $greycolor;
 	
 }
@@ -10,7 +10,22 @@
 	flex-wrap: wrap-reverse;
 	justify-content: center;
 	padding: 5rem 0 4.2rem 0;
+	
 }
+.solution-image-img{position: relative;
+	z-index: 1;
+}
+.solution-arnament-img{position: absolute;
+	top: 83%;
+right: 94%;
+z-index: -1;
+}
+.solution-circle-img{position: absolute;
+	bottom: 91%;
+	left: 89%;
+	z-index: -1;
+}
+
 .solution-image {
 	max-width: 100%;
 	min-height: 327px;

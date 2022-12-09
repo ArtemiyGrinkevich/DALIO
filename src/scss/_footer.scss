@@ -1,42 +1,55 @@
 .hero-footer {
+    background: $greycolor;
 }
 .container-big {
 }
 .footer {
+   
     margin-top: 2.4rem;
 
-		// .footer__interaction-contacts
-
 		&__interaction-contacts {
+            padding: 2.4rem 4rem 0 4rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
 		}
-
-		// .footer__bottom-information
 
 		&__bottom-information {
+            padding: 2.5rem;
             display: flex;
             justify-content: space-between;
+            flex-wrap: wrap;          
 		}
 }
-.interaction-contacts {
+.interaction-contacts { 
+    display: flex;
+    
+    
 
 		// .interaction-contacts__ornament-box
 
 		&__ornament-box {
             position: absolute;
+            left: 3.5%;
+            top:6%;
+            // bottom: 65%;
+       
 		}
 
 		// .interaction-contacts__form
 
 		&__form {
-            position: relative;
+            
+            
 		}
 
 		// .interaction-contacts__office
 
 		&__office {
+        
 		}
 
 		// .interaction-contacts__contact
@@ -61,19 +74,42 @@
 		// .form__footer-form
 
 		&__footer-form {
+            margin-right: 3rem;
 		}
 
 		// .form__footer-fieldset
 
 		&__footer-fieldset {
+            position: relative;
+           width: 110%;
            border-radius: 50px;
+           border: none;
+           background: $yelowcolor;
+           padding: 0 2.4rem 4rem 2.4rem;
+           
 		}
 
 		// .form__input-email
 
 		&__footer-input-email {
+            
+            &::placeholder{
+                text-decoration: none;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 30px;
+            }
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 30px;
             width: 100%;
-            padding: 1rem 2.4rem 0 2.4rem;
+            padding: 1rem 0 0 0;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            background:$yelowcolor;
+            outline: none;
 		}
 }
 .footer-fieldset {
@@ -81,7 +117,14 @@
     // .footer-fieldset__title
 
     &__title {
-        padding: 4rem 2.4rem 1.2rem 2.4rem;
+        padding: 4rem 0 0 0;
+        @include text600;
+        color: black;
+        max-width: 100%;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: left;
+        
     }
 }
 .office {
@@ -89,23 +132,39 @@
 		// .office__name
 
 		&__name {
+            @include text600;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: left;
 		}
 
 		// .office__adres
 
 		&__adres {
+            @include text400;
+            text-align: left;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 30px;
+            
 		}
 }
+
 .contact {
 
 		// .contact__name
 
 		&__name {
+            @include text600;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: left;
 		}
 
 		// .contact__links
 
 		&__links {
+            
             display: flex;
     flex-direction: column;
 		}
@@ -116,11 +175,23 @@
 		// .links__link-mail
 
 		&__link-mail {
+            @include text400;
+            text-align: left;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 30px;
 		}
 
 		// .links__link-telephone
 
 		&__link-telephone {
+            @include text400;
+            text-align: left;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 30px;
 		}
 }
 .bottom-information {
@@ -128,16 +199,21 @@
 		// .bottom-information__left-side
 
 		&__left-side {
+            margin: 0 auto;
+            
 		}
 
 		// .bottom-information__cemter-side
 
 		&__cemter-side {
+            margin: 0 auto;
 		}
 
 		// .bottom-information__right-side
 
 		&__right-side {
+            
+            margin: 0 auto;
 		}
 }
 .left-side {
@@ -145,6 +221,11 @@
 		// .left-side__information
 
 		&__information {
+            @include text400;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 30px;
 		}
 }
 .center-side {
@@ -152,6 +233,11 @@
 		// .center-side__information
 
 		&__information {
+            @include text400;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 30px;
 		}
 }
 .right-side {
