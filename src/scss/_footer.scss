@@ -1,0 +1,166 @@
+.hero-footer {
+}
+.container-big {
+}
+.footer {
+    margin-top: 2.4rem;
+
+		// .footer__interaction-contacts
+
+		&__interaction-contacts {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+		}
+
+		// .footer__bottom-information
+
+		&__bottom-information {
+            display: flex;
+            justify-content: space-between;
+		}
+}
+.interaction-contacts {
+
+		// .interaction-contacts__ornament-box
+
+		&__ornament-box {
+            position: absolute;
+		}
+
+		// .interaction-contacts__form
+
+		&__form {
+            position: relative;
+		}
+
+		// .interaction-contacts__office
+
+		&__office {
+		}
+
+		// .interaction-contacts__contact
+
+		&__contact {
+		}
+}
+.image-box {
+
+		// .image-box__footer-ornament
+
+		&__footer-ornament {
+		}
+
+		// .image-box__sotial-media-icons
+
+		&__sotial-media-icons {
+		}
+}
+.form {
+
+		// .form__footer-form
+
+		&__footer-form {
+		}
+
+		// .form__footer-fieldset
+
+		&__footer-fieldset {
+           border-radius: 50px;
+		}
+
+		// .form__input-email
+
+		&__footer-input-email {
+            width: 100%;
+            padding: 1rem 2.4rem 0 2.4rem;
+		}
+}
+.footer-fieldset {
+
+    // .footer-fieldset__title
+
+    &__title {
+        padding: 4rem 2.4rem 1.2rem 2.4rem;
+    }
+}
+.office {
+
+		// .office__name
+
+		&__name {
+		}
+
+		// .office__adres
+
+		&__adres {
+		}
+}
+.contact {
+
+		// .contact__name
+
+		&__name {
+		}
+
+		// .contact__links
+
+		&__links {
+            display: flex;
+    flex-direction: column;
+		}
+}
+.links {
+    
+
+		// .links__link-mail
+
+		&__link-mail {
+		}
+
+		// .links__link-telephone
+
+		&__link-telephone {
+		}
+}
+.bottom-information {
+
+		// .bottom-information__left-side
+
+		&__left-side {
+		}
+
+		// .bottom-information__cemter-side
+
+		&__cemter-side {
+		}
+
+		// .bottom-information__right-side
+
+		&__right-side {
+		}
+}
+.left-side {
+
+		// .left-side__information
+
+		&__information {
+		}
+}
+.center-side {
+
+		// .center-side__information
+
+		&__information {
+		}
+}
+.right-side {
+
+		// .right-side__image-box
+
+		&__image-box {
+		}
+}
+
+
+
