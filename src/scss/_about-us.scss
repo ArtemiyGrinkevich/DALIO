@@ -3,11 +3,14 @@
 }
 .about-us {
     display: flex;
+    justify-content: center;
     padding: 4rem 0;
     flex-wrap: wrap;
+    
 }
 .about-us-text {
-   max-width: 539px;
+   max-width: 40%;
+   flex-basis: calc(100% / 12 * 6 - 30px);
    padding-right: 2.2rem;
 
         &__title-about{
@@ -31,6 +34,7 @@
             color: rgba(224, 229, 243, 1);   
 		}
 		&__button {
+                  margin-top: 2rem;
             width: 10rem;
             min-height: 56px;
             @include button-hero
@@ -38,13 +42,21 @@
 }
 .about-us-images {
       
-        display: flex;
+      //   display: flex;
+      //   justify-content: center;
       //   margin-left: 2.2rem;     
         max-width: 100%;
+      //   min-height: 300px;
+      //   padding: 2rem;
+      //   flex-basis: calc(100% / 12 * 6 - 30px);
         
-
+            &__image-all{
+                  // min-height: 300px;
+                  max-width: 100%;
+            }
 		&__left {
-            max-width: 265px;
+                  max-width: 50%;
+            max-width: 13.25rem;
             margin-right: 1.3rem; 
 		}
 		&__left-image-top {
@@ -54,17 +66,26 @@
             margin-left: 2.2rem;   
 		}
 		&__right {
-            max-width: 265px;
+                  max-width: 50%;
+            max-width: 13.25rem;
             margin-top: 3.5rem;
 		}
 		&__right-image-top {
+                  border-top-right-radius: 50px;
             margin-bottom: 1.3rem;
 		}
+            &__right-image-bottom {
+                  border-bottom-right-radius: 50px;
+                 
+            }
     }
 
     .position-about{
+      display: flex;
+      max-width: 100%;
       position: relative;
       z-index: 1;
+      
     }
     .posion-ornament-circle{
       &__circle{
@@ -85,3 +106,27 @@
       }
 
     }
+
+
+    @media (max-width:1100px) {
+     
+            .about-us-text {
+                  max-width: 100%;
+                  flex-basis: calc(100% - 30px);
+                  margin: 0 2rem 2rem 2rem;
+                  padding-bottom:3rem ;
+                  &__button {
+                        margin: 0;
+                        
+                  }
+            }
+            .about-us-images{
+                  margin: 1rem;
+                  align-self: center;
+                  max-width: 100%;
+                  &__image-all{
+                        max-width: 100%;
+                        margin: 0 auto;
+                  }
+            }
+                }

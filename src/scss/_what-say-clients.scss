@@ -12,11 +12,13 @@
 
     &__content {
         display: flex;
+        flex-wrap: wrap;
     }
 }
 .container-big {
 }
-.container {margin: 0 auto;
+.container {
+    margin: 0 auto;
 }
 .full-card {
     padding: 2.7rem 3.25rem 2rem 3.25rem;

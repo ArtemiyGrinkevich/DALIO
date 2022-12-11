@@ -7,8 +7,10 @@
 	flex-wrap: wrap;
 }
 .fun-fact {
+	width: 13rem;
 	padding: 4rem 0 6rem 0;
-
+	text-align: center;
+	
 		&__job-completed { 
             @include text400
 		}
@@ -33,4 +35,12 @@
 		&__won-awards-numbers {
             @include text700
 		}
+}
+@media (max-width:1000px) {
+	.fun-fact {
+		width: 13rem;
+		padding:1rem 0 1rem 0;
+		text-align: center;
+	}
+	
 }
