@@ -1,44 +1,40 @@
 .our-services {
       margin: 1rem;
 }
-.container {
-}
-.services {
-}
+
 .title-services {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 6rem 0 2rem 0;
-    
-
-		// .title-services__title
-
+ 
 		&__title {
                   max-width: 70%;
             @include text700;
-            // max-width:19.1rem;
             text-align: left
 		}
-
-		// .title-services__button
-
-		&__button {
-                 
+		&__button {   
+                  transition: 0.3s;    
             @include button-hero-light ;
-            // background: none;
             max-width: 7.95rem;
             min-height: 2.6rem;
-            
-            
+            transition: 0.3s;
 		}
+            &__button:hover { 
+                     
+                  @include button-hero ;
+                  max-width: 7.95rem;
+                  min-height: 2.6rem; 
+                  transition: 0.5s;
+                  width: 8.5rem;
+                  font-size: 25px;
+                  }
 }
 .content-services {
     display: flex;
     justify-content:center;
     align-items: center;
     min-height: 1074px;
-		// .content-services__left-half-box
 
 		&__left-half-box {
             max-width: 27.75rem;
@@ -47,8 +43,6 @@
             border-top-left-radius: 30px;
             border-bottom-left-radius: 30px;
 		}
-
-		// .content-services__right-half-box
 
 		&__right-half-box {
             max-width: 27.75rem;
@@ -59,10 +53,6 @@
 		}
 }
 .box {
-   
-    
-
-		// .box__content-writing
 
 		&__content-writing {
             background:$greycolor;
@@ -70,11 +60,7 @@
             padding: 4.73rem 2.05rem 0 1.7rem ;
             margin-bottom: 1.5rem;
             border-top-left-radius: 30px ;
-            
-            // padding: 2rem 2rem 2rem 2rem;
 		}
-
-		// .box__branding
 
 		&__branding {
             background:$greycolor;
@@ -84,8 +70,6 @@
             
 		}
 
-		// .box__ux-research
-
 		&__ux-research {
             background:$greycolor;
             min-height: 522px;
@@ -93,8 +77,6 @@
             margin-bottom: 1.5rem;
             border-top-right-radius: 30px ;
 		}
-
-		// .box__web-design
 
 		&__web-design {
             background:$greycolor;
@@ -104,83 +86,67 @@
 		}
 }
 .content-writing {
-    
-
-		// .content-writing__vector
-
-		&__vector {
-
-		}
-
-		// .content-writing__title
 
 		&__title {
             padding-top: 1.45rem;
             @include text600
 		}
 
-		// .content-writing__deskription
-
 		&__deskription {
             @include text400;
             text-align: left;
             padding: 1rem 0 1rem 0;
 		}
 
-		// .content-writing__button
-
 		&__button {
             @include button-hero-light ;
             max-width: 7.95rem;
             min-height: 2.6rem;
+            transition: 0.5s;
 		}
+            &__button:hover {
+                  @include button-hero ;
+                  max-width: 7.95rem;
+                  min-height: 2.6rem;
+                  transition: 0.5s;
+                  width: 10.1rem;
+                  font-size: 19px
+                  }
 }
 .branding {
-
-		// .branding__vector
-
-		&__vector {
-		}
-
-		// .branding__title
-
 		&__title {
             @include text600;
             padding-top: 1.45rem;
             padding-top: 1rem;
 		}
 
-		// .branding__deskription
-
 		&__deskription {
             @include text400;
             text-align: left;
             padding: 1rem 0 1rem 0;
 		}
 
-		// .branding__button
-
 		&__button {
             @include button-hero-light ;
             max-width: 7.95rem;
             min-height: 2.6rem;
+            transition: 0.5s;
 		}
+            &__button:hover {
+                  @include button-hero ;
+                  max-width: 7.95rem;
+                  min-height: 2.6rem;
+                  transition: 0.5s;
+                  width: 10.1rem;
+                  font-size: 19px
+                  }
 }
 .ux-research {
-
-		// .ux-research__vector
-
-		&__vector {
-		}
-
-		// .ux-research__title
 
 		&__title {
             @include text600;
             padding-top: 1.45rem;
 		}
-
-		// .ux-research__deskription
 
 		&__deskription {
             @include text400;
@@ -189,29 +155,27 @@
             
 		}
 
-		// .ux-research__button
-
 		&__button {
-            @include button-hero;
-            max-width: 7.95rem;
-            min-height: 2.6rem;
-		}
+                  @include button-hero ;
+                  max-width: 7.95rem;
+                  min-height: 2.6rem;
+                  transition: 0.5s;
+                  }
+                  &__button:hover {
+                        @include button-hero-light ;
+                        max-width: 7.95rem;
+                        min-height: 2.6rem;
+                        transition: 0.5s;
+                        width: 10.1rem;
+                        font-size: 19px
+                        }
 }
 .web-design {
-
-		// .web-design__vector
-
-		&__vector {
-		}
-
-		// .web-design__title
 
 		&__title {
             @include text600;
             padding-top: 1.45rem;
 		}
-
-		// .web-design__deskription
 
 		&__deskription {
             padding: 1rem 0 1rem 0;
@@ -219,13 +183,20 @@
             text-align: left;
 		}
 
-		// .web-design__button
-
 		&__button {
-            @include button-hero-light ;
-            max-width: 7.95rem;
-            min-height: 2.6rem;
-		}
+                  @include button-hero-light ;
+                  max-width: 7.95rem;
+                  min-height: 2.6rem;
+                  transition: 0.5s;
+                  }
+                  &__button:hover {
+                        @include button-hero ;
+                        max-width: 7.95rem;
+                        min-height: 2.6rem;
+                        transition: 0.5s;
+                        width: 10.1rem;
+                        font-size: 19px
+                        }
 }
 
 
@@ -233,45 +204,14 @@
 
 .content-services {
 
-      // .content-services__box-mini
-
       &__box-mini {
             display: none;
       }
 }
-.box {
 
-      // .box__content-writing
-
-      &__content-writing {
-      }
-}
-.content-writing {
-
-      // .content-writing__vector
-
-      &__vector {
-      }
-
-      // .content-writing__title
-
-      &__title {
-      }
-
-      // .content-writing__deskription
-
-      &__deskription {
-      }
-
-      // .content-writing__button
-
-      &__button {
-      }
-}
 .box-mini {
       display: flex;
       justify-content: center;
-      // .box-mini__points
 
       &__points {
             margin: 0 auto;
@@ -280,8 +220,6 @@
 .points {
       display: flex;
       max-width: 100%;
-      // .points__points-image
-
       &__points-image {
            max-width: 100%;
       }
@@ -307,10 +245,6 @@
                         }
       }
       .box {
-   
-    
-
-		// .box__content-writing
 
 		&__content-writing {
             background:$greycolor;
@@ -318,8 +252,6 @@
             padding: 4.73rem 2.05rem 2.4rem 1.7rem ;
             margin-bottom: 1.5rem;
             border-radius: 30px ;
-            
-            // padding: 2rem 2rem 2rem 2rem;
 		}
       }
 

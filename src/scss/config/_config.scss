@@ -1,5 +1,6 @@
 html{
     font-size: 20px;
+    scroll-behavior: smooth;
 }
 *{
     margin: 0;
@@ -9,13 +10,10 @@ html{
 .container{
     max-width: 1140px;
     margin: 0 auto;
-    // padding: 0 15px;
-    
 }
 .container-big{
     max-width: 1440px;
     margin: 0 auto;
-    // padding: 0 15px;
 }
 .wrapper{
     display: flex;
@@ -25,7 +23,5 @@ html{
 }
 .main-content{
     flex: 1 0 auto;
-    // margin: 0 auto;
     background: $bluecolor;
-    
 }

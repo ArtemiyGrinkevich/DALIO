@@ -2,14 +2,15 @@
             background:url(/src/assets/icons/hero-arrow.svg)90% no-repeat, rgba(255, 201, 62, 1);
             border-radius: 30px;
             font-family: 'Inter', sans-serif;
+            color: black;
             border: none;
             font-size: 18px;
             font-weight: 500;
             line-height: 22px;
             padding:0 2rem 0 1rem;
             cursor: pointer;
-            // padding: 16px, 24px, 16px, 24px;
 }
+
 @mixin light {
    
     font-family: 'Inter', sans-serif;
@@ -32,9 +33,7 @@
     font-weight: 500;
     line-height: 22px;
     padding:0 2rem 0 1rem;
-    
     cursor: pointer;
-    // padding: 16px, 44px, 16px, 24px;
 }
 @mixin text700 {
 font-family: Inter;

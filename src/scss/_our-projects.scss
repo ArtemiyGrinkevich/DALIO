@@ -5,32 +5,19 @@
 .container {
       margin: 0 auto;
 }
-.projects {
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;
-}
+
 .projects-header {
-    
-
-		// .projects-header__title
-
 		&__title {
             @include text700
 		}
 
-		// .projects-header__navigation
-
 		&__navigation {
             padding-top: 1.2rem;
             min-height: 3rem;
-        
-        display: flex;
-        justify-content:center;
-        gap: 2rem;
-
-        
-        align-items: center;
+            display: flex;
+            justify-content:center;
+            gap: 2rem;
+            align-items: center;
 		}
 }
 .ui-ux{
@@ -38,40 +25,45 @@
     color:rgba(255, 201, 62, 1);
 }
 .navigation {
-    
-
-		// .navigation__project-link
-
 		&__project-link {
-            @include text400;
-            text-decoration:none;
+                  @include text400;
+                  text-decoration:none;
+                  transition: 0.2s;
+		}
+            &__project-link:hover {
+                  @include text400;
+                  text-decoration:none;
+                  transition: 0.2s;
+                  color: rgba(255, 201, 62, 1);
 		}
             &__project-link-interaction{
                   @include text400;
-                  text-decoration:none;    
+                  text-decoration:none;   
+                  transition: 0.2s; 
             }
+            &__project-link-interaction:hover {
+                  @include text400;
+                  text-decoration:none;
+                  transition: 0.2s;
+                  color: rgba(255, 201, 62, 1);}
+
 }
 .projects-content {
     padding: 2.4rem 0 2.4rem 0;
     display: flex;
     justify-content: center;
-//     flex-wrap: wrap;
-    
 }
 .project-content-left {
-    margin-right: 1.5rem;
+            margin-right: 1.5rem;
 }
 .projects-content-left {
-display: flex;
-justify-content: center;
-		// .projects-content-left__image
+            display: flex;
+            justify-content: center;
 
 		&__image {
             border-radius: 50px;
             width: 100%;
 		}
-
-		// .projects-content-left__title
 
 		&__title {
             padding: 1.6rem 0 1.6rem 0;
@@ -83,8 +75,6 @@ justify-content: center;
             line-height: 36px;
 		}
 
-		// .projects-content-left__subtitle
-
 		&__subtitle {
             @include text400;
             text-align:left;
@@ -93,18 +83,12 @@ justify-content: center;
 		}
 		}
 
-.project-content-right {
-}
 .projects-content-right {
-
-		// .projects-content-right__image
 
 		&__image {
             border-radius: 50px;
             width: 100%;
 		}
-
-		// .projects-content-right__title
 
 		&__title {
             padding: 1.6rem 0 1.6rem 0;
@@ -116,8 +100,6 @@ justify-content: center;
             font-size: 24px;
             line-height: 36px;
 		}
-
-		// .projects-content-right__subtitle
 
 		&__subtitle {
             @include text400;
@@ -141,46 +123,25 @@ justify-content: center;
     transition: 0.3s;
 }
 .projects-button:hover {
-    
 
       @include text600;
       color: black;
-      @include button-hero;
+      @include button-hero-light;
       text-align: center;
       max-width: 15rem;
       min-height: 2.5rem;
-      // font-size: 20px;
       transition: 0.3s;
-      
-      // line-height: 66px;
-      // font-weight: 500.3;
-     
 }
 
-.projects-header-mini {
-}
 .projects-header {
-
-		// .projects-header__title
-
-		&__title {
-		}
-
-		// .projects-header__button
 
 		&__button {
                   display: none;
 		}
 }
-.project-box-button {
-}
 .project-points {
       display: none;
 }
-.projects-button:hover {
-
-}
-
 
 @media (max-width:900px) {
       .project-points {
@@ -196,10 +157,6 @@ justify-content: center;
             display: none;
       }
       .navigation {
-    
-
-		// .navigation__project-link
-
 		&__project-link {
             @include text400;
             text-decoration:none;
@@ -216,8 +173,6 @@ justify-content: center;
       }
       .projects-header {
 
-		// .projects-header__title
-
 		&__title {
                   max-width: 80%;
                   @include text600;
@@ -225,8 +180,6 @@ justify-content: center;
                   font-size: 1.3rem;
 
 		}
-
-		// .projects-header__button
 
 		&__button {
                   display: initial;
@@ -237,11 +190,5 @@ justify-content: center;
       padding-top: 6rem;
       display: flex;
   }
-//   .projects-content-left {
-//       margin-right: 0;
-//       &__title {
-//             text-align: center;
-//             padding: 0;
-//       }
-// }
+
 }

@@ -1,12 +1,9 @@
-.about {
-//     background: url(/src/assets/icons/about-us-ornament-cirkle.svg)82% 100% no-repeat,url(/src/assets/icons/about-us-ornament-liner.svg)72% 10% no-repeat;  
-}
+
 .about-us {
     display: flex;
     justify-content: center;
     padding: 4rem 0;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;  
 }
 .about-us-text {
    max-width: 40%;
@@ -37,48 +34,21 @@
                   margin-top: 2rem;
             width: 10rem;
             min-height: 56px;
-            @include button-hero
+            @include button-hero;
+            transition:0.3s;
+		}
+            &__button:hover {
+                  margin-top: 2rem;
+            width: 10.5rem;
+            min-height: 56px;
+            @include button-hero;
+            font-size: 20px;
+            transition:0.3s;
 		}
 }
-.about-us-images {
-      
-      //   display: flex;
-      //   justify-content: center;
-      //   margin-left: 2.2rem;     
+.about-us-images {  
         max-width: 100%;
-      //   min-height: 300px;
-      //   padding: 2rem;
-      //   flex-basis: calc(100% / 12 * 6 - 30px);
-        
-            &__image-all{
-                  // min-height: 300px;
-                  max-width: 100%;
-            }
-		&__left {
-                  max-width: 50%;
-            max-width: 13.25rem;
-            margin-right: 1.3rem; 
-		}
-		&__left-image-top {
-            margin-bottom: 1.3rem;
-		}
-		&__left-image-bottom {
-            margin-left: 2.2rem;   
-		}
-		&__right {
-                  max-width: 50%;
-            max-width: 13.25rem;
-            margin-top: 3.5rem;
-		}
-		&__right-image-top {
-                  border-top-right-radius: 50px;
-            margin-bottom: 1.3rem;
-		}
-            &__right-image-bottom {
-                  border-bottom-right-radius: 50px;
-                 
-            }
-    }
+}
 
     .position-about{
       display: flex;

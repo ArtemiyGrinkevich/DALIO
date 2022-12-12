@@ -2,8 +2,6 @@
     padding-bottom: 6rem;
     margin: 1rem;
 }
-.container {
-}
 .insights {
 
 		&__title {
@@ -30,10 +28,6 @@
 		}
 }
 .technology {
-
-		&__image-box {
-		}
-
 		&__false-button {         
             background-color: #fff;
             border-radius: 10px;
@@ -61,9 +55,6 @@
             line-height: 38px;
             text-align: left;
 		}
-
-		&__button-box {
-		}
 }
 .image-box {
 
@@ -84,13 +75,16 @@
 		&__button {
             @include button-hero-light;
             min-height:2.5rem;
+            transition: 0.3s;
 		}
+            &__button:hover {
+                  @include button-hero;
+                  min-height:2.5rem;
+                  transition: 0.3s;
+                  font-size: 20px;
+                  }
 }
 .webiner {
-
-		&__image-box {
-		}
-
 
 		&__false-button {
             background-color: #fff;
@@ -118,9 +112,6 @@
             font-size: 30px;
             line-height: 38px;
             text-align: left;
-		}
-
-		&__button-box {
 		}
 }
 
@@ -165,9 +156,8 @@
       text-align: left;
       padding: 0;
       max-width: 80%;
-                  @include text600;
-                  
-                  font-size: 1.3rem;
+      @include text600;
+      font-size: 1.3rem;
       }
       
       
@@ -182,10 +172,6 @@
       }
 }
 .webiner {
-
-		&__image-box {
-		}
-
 
 		&__false-button {
             background-color: #fff;
@@ -213,9 +199,6 @@
             font-size: 30px;
             line-height: 38px;
             text-align: left;
-		}
-
-		&__button-box {
 		}
 }
 }

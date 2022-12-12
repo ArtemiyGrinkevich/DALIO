@@ -1,22 +1,15 @@
 .what-say-happy-clients {
     margin: 1rem;
 
-    // .what-say-happy-clients__title
-
     &__title {
         @include text700;
         text-align:left;
         padding: 6rem 0 2.4rem 0;
     }
 
-    // .what-say-happy-clients__content
-
     &__content {
         display: flex;
-        // flex-wrap: wrap;
     }
-}
-.container-big {
 }
 .container {
     margin: 0 auto;
@@ -31,43 +24,22 @@
     border-radius: 50px;
     position: relative;
     max-width: 37.5rem;
+  
     
-
-    // .full-card__left-side
-
     &__left-side {
         cursor: pointer;
         position: absolute;
         right: 96%;
         
-    }
-
-    // .full-card__arrow-image
-
-    &__arrow-image {
         
     }
-
-    // .full-card__right-side
-
-    &__right-side {
-    }
-
-    // .full-card__quotes-image
-
-    &__quotes-image {
-    }
-
-    // .full-card__deskription
+    
 
     &__deskription {
         @include text400;
         text-align: left;
         padding-top: 1.6rem;
     }
-
-    // .full-card__business-card
-
     &__business-card {
         display: flex;
         flex-wrap: wrap;
@@ -77,38 +49,25 @@
 .busines-card-simons-card{
     display: flex;
 }
-.busines-card-wilson-card__image{
-
-}
 .business-card {
     max-width: 100%;
     &__simons-card {
-        max-width: 500%;
-       
-        
-    }
-    // .business-card__simmons-image
-
-    &__simmons-image {
-        
-        padding-top: 1.85rem;
+    max-width: 100%;
     }
 
-    // .business-card__data
+    &__simmons-image {  
+        padding-top: 1.85rem; 
+    }
 
     &__data {
-        // max-width: 50%;
-        padding: 2.1rem 0 0 0.8rem;
+        margin: 2.1rem 0 0 0.8rem;
     }
-
-    // .business-card__rating
+ .business-card__rating
 
     &__rating {
         max-width: 100%;
-        padding: 1.6rem 0 0 2rem;
+        margin: 0 auto;
     }
-
-    // .business-card__wilson-image
 
     &__wilson-image {
         max-width: 100%;
@@ -117,14 +76,10 @@
 }
 .data {
 
-    // .data__name
-
     &__name {
         @include text500;
         color:rgba(255, 255, 255, 1);
     }
-
-    // .data__job-title
 
     &__job-title {
         @include text400;
@@ -136,42 +91,26 @@
     border-bottom-left-radius: 50px;
     border-top-left-radius: 50px;
     max-width: 37.5rem;
-    // max-height: 21.95rem;
     overflow: hidden;
     padding: 2.7rem 3.25rem 2rem 3.25rem;
 
-    // .half-card__quotes-image
-
-    &__quotes-image {
-    }
-
-    // .half-card__deskription
-
     &__deskription {
         padding-top: 1.6rem;
-        // height: 150px;
 width: 620px;
 @include text400;
 text-align: left;
     }
-
-    // .half-card__business-card
-
     &__business-card {
         display: flex;
-        
     }
 }
 @media (max-width:900px) {
     .container {
-        // margin: 0 auto;
         display: flex;
         justify-content: space-between;
     }
     .what-say-happy-clients {
 
-        // .what-say-happy-clients__title
-    
         &__title {
                 padding: 0;
                 max-width: 80%;
@@ -187,7 +126,6 @@ text-align: left;
         display: flex;
         justify-content: center;
         flex-direction: column;
-        // flex-wrap: wrap;
     }
 }
 
@@ -202,8 +140,7 @@ text-align: left;
     &__business-card {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
-        text-align: center;
+        
         max-width: 100%;
     }
     &__right-side {
