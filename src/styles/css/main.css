@@ -988,6 +988,10 @@ html {
     margin: 0 0 5rem 0;
   }
 }
+.our-services {
+  margin: 1rem;
+}
+
 .title-services {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1001,13 +1005,13 @@ html {
   padding: 6rem 0 2rem 0;
 }
 .title-services__title {
+  max-width: 70%;
   font-family: Inter;
   font-size: 2.4rem;
   font-weight: 700;
   line-height: 2.9rem;
   text-align: center;
   color: rgb(255, 255, 255);
-  max-width: 19.1rem;
   text-align: left;
 }
 .title-services__button {
@@ -1021,8 +1025,8 @@ html {
   line-height: 22px;
   padding: 0 2rem 0 1rem;
   cursor: pointer;
-  width: 8rem;
-  height: 2rem;
+  max-width: 7.95rem;
+  min-height: 2.6rem;
 }
 
 .content-services {
@@ -1211,8 +1215,114 @@ html {
   min-height: 2.6rem;
 }
 
+.content-services__box-mini {
+  display: none;
+}
+
+.box-mini {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.box-mini__points {
+  margin: 0 auto;
+}
+
+.points {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+}
+.points__points-image {
+  max-width: 100%;
+}
+
+@media (max-width: 900px) {
+  .title-services__button {
+    font-family: "Inter", sans-serif;
+    color: rgb(255, 201, 62);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    background: none;
+    border: none;
+    width: 8rem;
+    height: 2rem;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .title-services__title {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    color: rgb(255, 255, 255);
+    line-height: 2rem;
+    padding-top: 1.45rem;
+  }
+  .box__content-writing {
+    background: #5A6378;
+    min-height: 522px;
+    padding: 4.73rem 2.05rem 2.4rem 1.7rem;
+    margin-bottom: 1.5rem;
+    border-radius: 30px;
+  }
+  .content-services {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-height: 100px;
+  }
+  .content-services__box-mini {
+    max-width: 600px;
+    display: initial;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .content-services__left-half-box {
+    display: none;
+  }
+  .content-services__right-half-box {
+    display: none;
+  }
+  .content-writing__button {
+    background: url(/src/assets/icons/hero-arrow.svg) 90% no-repeat, rgb(255, 201, 62);
+    border-radius: 30px;
+    font-family: "Inter", sans-serif;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 0 2rem 0 1rem;
+    cursor: pointer;
+    max-width: 7.95rem;
+    min-height: 2.6rem;
+    color: black;
+  }
+}
 .our-projects {
   padding-top: 6rem;
+  margin: 1rem;
 }
 
 .projects-header__title {
@@ -1244,6 +1354,15 @@ html {
 }
 
 .navigation__project-link {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: rgb(224, 229, 243);
+  text-decoration: none;
+}
+.navigation__project-link-interaction {
   font-family: Inter;
   font-size: 20px;
   font-weight: 400;
@@ -1354,6 +1473,76 @@ html {
   font-size: 16px;
 }
 
+.projects-header__button {
+  display: none;
+}
+
+.project-points {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .project-points {
+    display: initial;
+  }
+  .projects-button {
+    display: none;
+  }
+  .project-content-left {
+    margin-right: 0;
+  }
+  .project-content-right {
+    display: none;
+  }
+  .navigation__project-link {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: rgb(224, 229, 243);
+    text-decoration: none;
+  }
+  .navigation__project-link-interaction {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: rgb(224, 229, 243);
+    text-decoration: none;
+    display: none;
+  }
+  .projects-header-mini {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .projects-header__title {
+    max-width: 80%;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 1.3rem;
+  }
+  .projects-header__button {
+    display: initial;
+    font-family: "Inter", sans-serif;
+    color: rgb(255, 201, 62);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+}
 .what-say-happy-clients__title {
   font-family: Inter;
   font-size: 2.4rem;

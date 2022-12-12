@@ -10,6 +10,18 @@
             cursor: pointer;
             // padding: 16px, 24px, 16px, 24px;
 }
+@mixin light {
+   
+    font-family: 'Inter', sans-serif;
+    color: rgba(255, 201, 62, 1);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    
+}
 @mixin button-hero-light {
     background:url(/src/assets/icons/arrowlight.svg)90% no-repeat,;
     border: 1px solid rgba(255, 255, 255, 1);

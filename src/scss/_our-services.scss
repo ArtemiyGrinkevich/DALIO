@@ -1,5 +1,5 @@
 .our-services {
-    
+      margin: 1rem;
 }
 .container {
 }
@@ -10,23 +10,26 @@
     align-items: center;
     justify-content: space-between;
     padding: 6rem 0 2rem 0;
+    
 
 		// .title-services__title
 
 		&__title {
+                  max-width: 70%;
             @include text700;
-            max-width:19.1rem;
+            // max-width:19.1rem;
             text-align: left
 		}
 
 		// .title-services__button
 
 		&__button {
+                 
             @include button-hero-light ;
             // background: none;
+            max-width: 7.95rem;
+            min-height: 2.6rem;
             
-            width: 8rem;
-            height: 2rem;
             
 		}
 }
@@ -223,4 +226,129 @@
             max-width: 7.95rem;
             min-height: 2.6rem;
 		}
+}
+
+
+
+
+.content-services {
+
+      // .content-services__box-mini
+
+      &__box-mini {
+            display: none;
+      }
+}
+.box {
+
+      // .box__content-writing
+
+      &__content-writing {
+      }
+}
+.content-writing {
+
+      // .content-writing__vector
+
+      &__vector {
+      }
+
+      // .content-writing__title
+
+      &__title {
+      }
+
+      // .content-writing__deskription
+
+      &__deskription {
+      }
+
+      // .content-writing__button
+
+      &__button {
+      }
+}
+.box-mini {
+      display: flex;
+      justify-content: center;
+      // .box-mini__points
+
+      &__points {
+            margin: 0 auto;
+      }
+}
+.points {
+      display: flex;
+      max-width: 100%;
+      // .points__points-image
+
+      &__points-image {
+           max-width: 100%;
+      }
+}
+
+@media (max-width:900px) {
+      .title-services{
+
+            &__button {
+                  @include light ;
+                  background: none;
+                  border: none;
+                  width: 8rem;
+                  height: 2rem;
+                  padding: 0;
+                  display: flex;
+                  justify-content: flex-end;
+                  }
+                  &__title {
+                        @include text600;
+                        line-height: 2rem;
+                        padding-top: 1.45rem;
+                        }
+      }
+      .box {
+   
+    
+
+		// .box__content-writing
+
+		&__content-writing {
+            background:$greycolor;
+            min-height: 522px;
+            padding: 4.73rem 2.05rem 2.4rem 1.7rem ;
+            margin-bottom: 1.5rem;
+            border-radius: 30px ;
+            
+            // padding: 2rem 2rem 2rem 2rem;
+		}
+      }
+
+      .content-services {
+            display: flex;
+            justify-content:center;
+            min-height: 100px;
+            &__box-mini {
+                  max-width: 600px;
+                  display: initial;
+                  display: flex;
+                  flex-direction: column;
+            }
+            &__left-half-box {
+                        display: none;
+                        }
+
+            &__right-half-box {
+                        display: none;
+                        }
+            }
+      
+      .content-writing{
+            &__button {
+            @include button-hero ;
+            max-width: 7.95rem;
+            min-height: 2.6rem;
+            color: black;
+		}
+      }
+
 }

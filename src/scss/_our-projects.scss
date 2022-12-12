@@ -1,5 +1,6 @@
 .our-projects {
     padding-top: 6rem;
+    margin: 1rem;
 }
 .container {
 }
@@ -44,6 +45,10 @@
             @include text400;
             text-decoration:none;
 		}
+            &__project-link-interaction{
+                  @include text400;
+                  text-decoration:none;    
+            }
 }
 .projects-content {
     padding: 2.4rem 0 2.4rem 0;
@@ -131,4 +136,83 @@
     max-width: 10rem;
     min-height: 2.5rem;
     font-size: 16px;
+}
+
+
+.projects-header-mini {
+}
+.projects-header {
+
+		// .projects-header__title
+
+		&__title {
+		}
+
+		// .projects-header__button
+
+		&__button {
+                  display: none;
+		}
+}
+.project-box-button {
+}
+.project-points {
+      display: none;
+}
+.projects-button {
+}
+
+
+@media (max-width:900px) {
+      .project-points {
+            display: initial;
+      }
+      .projects-button {
+            display: none;
+      }
+      .project-content-left {
+            margin-right: 0;
+        }
+      .project-content-right {
+            display: none;
+      }
+      .navigation {
+    
+
+		// .navigation__project-link
+
+		&__project-link {
+            @include text400;
+            text-decoration:none;
+		}
+            &__project-link-interaction{
+                  @include text400;
+                  text-decoration:none;  
+                  display: none;  
+            }
+}
+      .projects-header-mini {
+            display: flex;
+            justify-content: space-between;
+      }
+      .projects-header {
+
+		// .projects-header__title
+
+		&__title {
+                  max-width: 80%;
+                  @include text600;
+                  text-align: left;
+                  font-size: 1.3rem;
+
+		}
+
+		// .projects-header__button
+
+		&__button {
+                  display: initial;
+                  @include light
+		}
+}
+      
 }
