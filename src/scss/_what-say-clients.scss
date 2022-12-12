@@ -1,4 +1,5 @@
 .what-say-happy-clients {
+    margin: 1rem;
 
     // .what-say-happy-clients__title
 
@@ -12,7 +13,7 @@
 
     &__content {
         display: flex;
-        flex-wrap: wrap;
+        // flex-wrap: wrap;
     }
 }
 .container-big {
@@ -69,6 +70,7 @@
 
     &__business-card {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
     }
 }
@@ -79,32 +81,37 @@
 
 }
 .business-card {
+    max-width: 100%;
     &__simons-card {
-      
+        max-width: 500%;
        
         
     }
     // .business-card__simmons-image
 
     &__simmons-image {
+        
         padding-top: 1.85rem;
     }
 
     // .business-card__data
 
     &__data {
+        // max-width: 50%;
         padding: 2.1rem 0 0 0.8rem;
     }
 
     // .business-card__rating
 
     &__rating {
-        padding-top: 1.6rem;
+        max-width: 100%;
+        padding: 1.6rem 0 0 2rem;
     }
 
     // .business-card__wilson-image
 
     &__wilson-image {
+        max-width: 100%;
         padding-top: 1.85rem;
     }
 }
@@ -154,4 +161,60 @@ text-align: left;
         display: flex;
         
     }
+}
+@media (max-width:900px) {
+    .container {
+        // margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .what-say-happy-clients {
+
+        // .what-say-happy-clients__title
+    
+        &__title {
+                padding: 0;
+                max-width: 80%;
+                @include text600;
+                text-align: left;
+                font-size: 1.3rem;
+        }
+    
+}
+.what-say-happy-clients{
+
+    &__content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        // flex-wrap: wrap;
+    }
+}
+
+.full-card{
+    margin: 2rem auto;
+    max-width: 100%;
+    
+
+    &__arrow-image {
+        display: none;
+    }
+    &__business-card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        text-align: center;
+        max-width: 100%;
+    }
+    &__right-side {
+        max-width: 100%;
+    }
+}
+.busines-card-simons-card{
+    display: flex;
+    max-width: 50%;
+}
+.half-card {
+    display: none;
+}
 }

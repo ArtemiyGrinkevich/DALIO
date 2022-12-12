@@ -9,7 +9,7 @@
 .hero-content {
             &__title-agency-filling{
             min-height: 700px;
-            margin: 0;
+            margin: 1rem;
             }
 		&__title {
             display: flex;
@@ -368,7 +368,7 @@
             max-width: 100%;
             display: flex;
       flex-wrap: wrap-reverse;
-
+margin: 1rem;
       }
 }
 .deskription-scroll{
@@ -410,6 +410,7 @@
 .side {
 
       &__side-image {
+            margin-left: 1rem;
             
       }
 }

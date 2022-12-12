@@ -1,5 +1,6 @@
 .blog-from-insights {
     padding-bottom: 6rem;
+    margin: 1rem;
 }
 .container {
 }
@@ -121,4 +122,100 @@
 
 		&__button-box {
 		}
+}
+
+
+
+@media (max-width:900px) {
+      .articles {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+		&__technology {
+            max-width: 27.7rem;
+            margin-top: 1rem ;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+		}
+
+		&__webiner {
+                  display: none;
+            max-width: 27.7rem;
+		}
+}
+.technology{
+&__button-box {
+      margin-bottom: 1rem;
+}
+}
+.blog-from-insights {
+      padding-bottom: 6rem;
+      display: flex;
+      justify-content: center;
+      
+  }
+.project-box-button{
+      margin: 0 auto;
+}
+.insights {
+
+      &__title {
+      
+      text-align: left;
+      padding: 0;
+      max-width: 80%;
+                  @include text600;
+                  
+                  font-size: 1.3rem;
+      }
+      
+      
+}
+
+.image-box {
+
+      &__technology-picture {
+      border-radius: 65px;
+      width: 100%;
+      padding:  0;
+      }
+}
+.webiner {
+
+		&__image-box {
+		}
+
+
+		&__false-button {
+            background-color: #fff;
+            border-radius: 10px;
+            border: 1px solid;
+            display: inline-block;
+            @include text500;
+            font-family: Red Hat Display;
+            font-size: 12px;
+            line-height: 18px;
+            text-align: center;
+            padding: 0.05rem;
+		}
+
+		&__date {
+            padding: 1.05rem 0 0.8rem 0;
+            @include text500;
+            color:rgba(255, 255, 255, 1);
+		}
+
+		&__subtitle {
+            max-width: 90%;
+            padding: 0 0 1rem 0;
+            @include text700;
+            font-size: 30px;
+            line-height: 38px;
+            text-align: left;
+		}
+
+		&__button-box {
+		}
+}
 }
