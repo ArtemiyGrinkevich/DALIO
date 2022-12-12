@@ -1399,6 +1399,14 @@ html {
   margin-right: 1.5rem;
 }
 
+.projects-content-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 .projects-content-left__image {
   border-radius: 50px;
   width: 100%;
@@ -1412,7 +1420,7 @@ html {
   text-align: center;
   color: rgb(255, 255, 255);
   text-align: left;
-  max-width: 18.95rem;
+  max-width: 100%;
   min-height: 2.9rem;
   font-size: 24px;
   line-height: 36px;
@@ -2022,7 +2030,7 @@ html {
 }
 
 .footer {
-  margin-top: 2.4rem;
+  margin: 2.4rem 1rem 1rem 1rem;
 }
 .footer__interaction-contacts {
   padding: 2.4rem 4rem 0 4rem;
@@ -2062,12 +2070,36 @@ html {
   left: 3.5%;
   top: 6%;
 }
+.interaction-contacts__form {
+  max-width: 100%;
+}
+.interaction-contacts__office {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.interaction-contacts__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .form__footer-form {
   margin-right: 3rem;
 }
 .form__footer-fieldset {
   position: relative;
-  width: 110%;
+  max-width: 100%;
   border-radius: 50px;
   border: none;
   background: #FEC83E;
@@ -2172,9 +2204,16 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
+.links {
+  max-width: 100%;
+}
 .links__link-mail {
+  max-width: 100%;
   font-family: Inter;
   font-size: 20px;
   font-weight: 400;
@@ -2188,6 +2227,7 @@ html {
   line-height: 30px;
 }
 .links__link-telephone {
+  max-width: 100%;
   font-family: Inter;
   font-size: 20px;
   font-weight: 400;
@@ -2203,12 +2243,15 @@ html {
 
 .bottom-information__left-side {
   margin: 0 auto;
+  pad: 1rem;
 }
 .bottom-information__cemter-side {
   margin: 0 auto;
+  pad: 1rem;
 }
 .bottom-information__right-side {
   margin: 0 auto;
+  pad: 1rem;
 }
 
 .left-side__information {
@@ -2235,4 +2278,89 @@ html {
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
+}
+
+.footer-mini {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .footer-full {
+    display: none;
+  }
+  .footer-mini {
+    display: initial;
+  }
+  .interaction-contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .interaction-contacts__ornament-box {
+    display: none;
+    position: absolute;
+    left: 3.5%;
+    top: 6%;
+  }
+  .interaction-contacts__office {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 100%;
+    margin: 1rem;
+  }
+  .footer {
+    margin-top: 2.4rem;
+  }
+  .footer__interaction-contacts {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .form__footer-form {
+    margin-right: 0;
+  }
+  .form__footer-fieldset {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    background: #FEC83E;
+    padding: 0 2.4rem 4rem 2.4rem;
+    margin-bottom: 1rem;
+  }
+  .contact__links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
